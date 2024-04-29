@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 33.33%;
+  padding: 20px;
+}
+
+.column img {
+  width: 100%;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+  margin-bottom: 10px;
+}
