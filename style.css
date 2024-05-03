@@ -1,27 +1,71 @@
 nav {
-    /* Styles for the navigation bar */
+  /* Styles for the navigation bar */
 }
 
 .container {
-    /* Styles for the container */
+  /* Styles for the container */
 }
 
 .column {
-    /* Styles for each column */
+  /* Styles for each column */
 }
 
 footer {
-    /* Styles for the footer */
+  /* Styles for the footer */
 }
 
 .profile-picture {
-    /* Styles for the profile picture */
+  /* Styles for the profile picture */
 }
 
 .project-list {
-    /* Styles for the project list */
+  /* Styles for the project list */
 }
 
 .skills-experience {
-    /* Styles for the skills and experience section */
+  /* Styles for the skills and experience section */
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  header, main, footer {
+    padding: 10px;
+  }
 }
