@@ -1,28 +1,17 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .column {
-  width: 33.33%;
-  padding: 20px;
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
 }
 
-.column img {
-  width: 100%;
-}
-
-.column ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#contact-form {
-  display: flex;
-  flex-direction: column;
-}
-
-#contact-form input,
-#contact-form textarea {
+input[type="text"],
+button {
+  display: block;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
