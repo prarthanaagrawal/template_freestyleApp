@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+header {
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#result {
+  grid-column: 1 / -1;
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
