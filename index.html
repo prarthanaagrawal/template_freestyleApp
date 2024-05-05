@@ -1,25 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Addition of Two Numbers</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Meta tags for character encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title for the webpage -->
+    <title>Indian Government Q&A</title>
+    <!-- Include the necessary CSS and JavaScript files -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Addition of Two Numbers</h1>
-  </header>
-
-  <div>
-    <label for="firstNumber">First Number:</label>
-    <input type="number" id="firstNumber">
-  </div>
-  <div>
-    <label for="secondNumber">Second Number:</label>
-    <input type="number" id="secondNumber">
-  </div>
-
-  <div id="result"></div>
-
-  <script src="script.js"></script>
+    <!-- Header -->
+    <header>
+        <!-- Website logo -->
+        <img src="logo.png" alt="Website Logo">
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content area -->
+    <main>
+        <!-- Q&A interface -->
+        <div id="qa-interface">
+            <h1>Ask a Question</h1>
+            <form id="question-form">
+                <input type="text" id="question-input" placeholder="Enter your question">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="answer-container"></div>
+        </div>
+        <!-- Result of addition -->
+        <div>
+            <label for="firstNumber">First Number:</label>
+            <input type="number" id="firstNumber">
+        </div>
+        <div>
+            <label for="secondNumber">Second Number:</label>
+            <input type="number" id="secondNumber">
+        </div>
+        <div id="result"></div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <!-- Privacy policy, terms of service, and contact information -->
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
