@@ -1,21 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <!-- Meta tags for character encoding and viewport -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title for the webpage -->
     <title>Indian Government Q&A</title>
-    <!-- Include the necessary CSS and JavaScript files -->
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <!-- Website logo -->
         <img src="logo.png" alt="Website Logo">
-        <!-- Navigation menu -->
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -24,9 +15,18 @@
             </ul>
         </nav>
     </header>
-    <!-- Main content area -->
+    <div class="container">
+        <div class="column">
+            <!-- First column content -->
+        </div>
+        <div class="column">
+            <!-- Second column content -->
+        </div>
+        <div class="column">
+            <!-- Third column content -->
+        </div>
+    </div>
     <main>
-        <!-- Q&A interface -->
         <div id="qa-interface">
             <h1>Ask a Question</h1>
             <form id="question-form">
@@ -35,7 +35,6 @@
             </form>
             <div id="answer-container"></div>
         </div>
-        <!-- Result of addition -->
         <div>
             <label for="firstNumber">First Number:</label>
             <input type="number" id="firstNumber">
@@ -46,14 +45,13 @@
         </div>
         <div id="result"></div>
     </main>
-    <!-- Footer -->
     <footer>
-        <!-- Privacy policy, terms of service, and contact information -->
         <ul>
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms of Service</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
